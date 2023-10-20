@@ -1,0 +1,156 @@
+#header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    z-index: 1;
+}
+
+.header-box1 {
+    position: relative;
+    width: 100%;
+    height: 69.5px;
+}
+
+.header__banner {
+    position: absolute;
+    left: 10%;
+}
+
+.header__banner-img {
+    width: 160px;
+    height: 69.5px;
+    object-fit: contain;
+}
+
+.header-box2 {
+    position: relative;
+    width: 100%;
+    height: 31.5px;
+    background-color: #c83b4c;
+}
+
+.header__navlist {
+    position: absolute;
+    top: 0;
+    left: 10%;
+}
+
+.header__navlist-item {
+    display: inline-block;
+    color: white;
+    font-size: 10px;
+    padding: 10px 4px;
+}
+
+.header__navlist-item:hover {
+    background-color: #999;
+}
+
+.article {
+    width: 100%;
+    display: flex;
+}
+
+.article-main {
+    width: 70%;
+}
+
+.article-main__heading {
+    color: black;
+    text-transform: uppercase;
+    margin: 8px 0;
+}
+
+.aritcle-main__list-item {
+    display: flex;
+    margin-top: 12px;
+}
+
+.article-main__list-item__img {
+    width: 50%;
+    height: 100%;
+    object-fit: contain;
+    margin-right: 10px;
+}
+
+.article-main__list-item__heading {
+    color: black;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.article-main__list-item__text {
+    color: black;
+    font-size: 10px;
+}
+
+.article-main__list-item__link {
+    color: red;
+    font-size: 8px;
+}
+
+.article-sub {
+    width: 30%;
+}
+
+.article-sub__search-bar {
+    position: relative;
+    width: 100%;
+}
+
+.article-sub__search-bar__input {
+    width: 100%;
+    background-color: #eeeeee;
+    font-size: 12px;
+    border: none;
+    padding: 8px;
+}
+
+.article-sub__search-bar__btn {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: -10%;
+    top: 0;
+    background-color: transparent;
+    border: none;
+}
+
+.article-sub__search-bar__svg {
+    color: #757575;
+}
+
+.article-sub__heading {
+    color: black;
+    text-transform: uppercase;
+    margin: 8px 0;
+}
+
+.article-sub__list-item {
+    display: flex;
+    margin-top: 12px;
+}
+
+.article-sub__list-item__img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin-right: 10px;
+}
+
+.article-sub__list-item__text {
+    color: black;
+    font-size: 0.6rem;
+}
+
+.contact {
+    margin-top: 8px;
+}
+
+.contact__link__img {
+    height: 20px;
+    width: 20px;
+    object-fit: fill;
+}
